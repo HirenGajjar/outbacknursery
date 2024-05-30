@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="design-system.css  ">
+    <title>Breadcrumbs | Design System</title>
+</head>
+
+<body>
+    <!--Top Navigation -->
+    <nav class=" u-fs-m navigation u-text-accent u-text-clr-accent-lighter l-py-100   u-bg-clr-primary">
+        <a href="design-system.html" class="navigation__link  u-text-clr-accent-lighter l-pl-100">Design system</a>
+        <span id="menu-icon" class="navigation__icon l-pr-100">
+        <div class="navigation__circle"></div>
+        <div class="navigation__circle"></div>
+        <div class="navigation__circle"></div>
+    </span>
+        <div class="navigation__menu-links menu-links  l-pr-100">
+            <a href="about-me.html" class="menu-links__link l-pr-200">About me</a>
+            <a href="index.html" class="menu-links__link  ">Demo site</a>
+        </div>
+    </nav>
+    <!-- Mobile view sidebar -->
+
+    <div class="u-fs-m mobile-sidebar l-pt-050  u-text-accent u-text-clr-accent-lighter u-bg-clr-primary-lighter">
+        <div class="mobile-sidebar__content  l-px-300 l-pt-300">
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <a href="about-me.html" class="mobile-sidebar__link">About Me</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <a href="index.html" class="mobile-sidebar__link">Demo Site</a>
+                </li>
+            </ul>
+        </div>
+        <div class="l-py-100 l-px-300">
+            <h2 class="u-text-clr-accent mobile-sidebar__heading l-pt-150 l-pb-050">Branding</h2>
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 mobile-sidebar__number l-pr-050">01</span> <a class="mobile-sidebar__link" href="colours.html"> Colours</a>
+
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 mobile-sidebar__number l-pr-050">02</span> <a class="mobile-sidebar__link " href="typography.html">Typography</a>
+                </li>
+
+            </ul>
+            <h2 class="u-text-clr-accent mobile-sidebar__heading l-pt-150 l-pb-050">Utilities</h2>
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">03</span> <a class="mobile-sidebar__link" href="spacing.html"> Spacing</a>
+
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">04</span> <a class="mobile-sidebar__link" href="containers.html"> Containers</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">05</span> <a class="mobile-sidebar__link" href="images.html"> Images</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">06</span><a class="mobile-sidebar__link" href="interactive.html"> Interactive</a>
+                </li>
+
+            </ul>
+            <h2 class="u-text-clr-accent mobile-sidebar__heading l-pt-150 l-pb-050">Navigation</h2>
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">07</span><a class="mobile-sidebar__link" href="navbars.html"> Navbars</a>
+
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">08</span> <a class="mobile-sidebar__link active" href="breadcrumbs.html"> Breadcrumbs</a>
+                </li>
+
+            </ul>
+            <h2 class="u-text-clr-accent mobile-sidebar__heading l-pt-150 l-pb-050">Blocks</h2>
+            <ul>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">09</span><a class="mobile-sidebar__link" href="hero.html"> Hero</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">10</span> <a class="mobile-sidebar__link" href="carousel.html">Carousel</a>
+                </li>
+
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">11</span> <a class="mobile-sidebar__link" href="footer.html"> Footer</a>
+                </li>
+            </ul>
+
+            <h2 class="u-text-clr-accent mobile-sidebar__heading l-pt-150 l-pb-050">Components</h2>
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">12</span> <a class="mobile-sidebar__link" href="cards.html"> Cards</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">13</span> <a class="mobile-sidebar__link" href="forms.html"> Forms</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">14</span> <a class="mobile-sidebar__link" href="accordion.html"> Accordion</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">15</span> <a class="mobile-sidebar__link" href="lists.html"> Lists</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- Desktop view Navigation -->
+    <div class="u-bg-clr-primary-lighter l-px-300 desktop-sidebar u-text-accent u-text-clr-accent-lighter">
+
+        <h2 class="l-pt-250 l-pb-050 u-text-clr-accent desktop-sidebar__heading">Branding</h2>
+
+        <ul class="desktop-sidebar__list">
+            <li class="desktop-sidebar__item">
+
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">01</span> <a class="desktop-sidebar__link" href="colours.html"> Colours</a>
+
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">02</span> <a class="desktop-sidebar__link " href="typography.html">Typography</a>
+            </li>
+
+        </ul>
+
+        <h2 class="l-pt-250 l-pb-050 u-text-clr-accent desktop-sidebar__heading">Utilities</h2>
+        <ul class="desktop-sidebar__list">
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">03</span> <a class="desktop-sidebar__link" href="spacing.html"> Spacing</a>
+
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">04</span> <a class="desktop-sidebar__link" href="containers.html"> Containers</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">05</span> <a class="desktop-sidebar__link" href="images.html"> Images</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">06</span><a class="desktop-sidebar__link" href="interactive.html"> Interactive</a>
+            </li>
+
+        </ul>
+
+        <h2 class="l-pt-250 l-pb-050 u-text-clr-accent desktop-sidebar__heading">Navigation</h2>
+        <ul>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">07</span><a class="desktop-sidebar__link" href="navbars.html"> Navbars</a>
+
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">08</span> <a class="desktop-sidebar__link active" href="breadcrumbs.html"> Breadcrumbs</a>
+            </li>
+
+        </ul>
+        <h2 class="l-pt-250 l-pb-050 u-text-clr-accent desktop-sidebar__heading">Blocks</h2>
+        <ul class="desktop-sidebar__list">
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">09</span><a class="desktop-sidebar__link" href="hero.html"> Hero</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">10</span> <a class="desktop-sidebar__link" href="carousel.html">Carousel</a>
+            </li>
+
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">11</span> <a class="desktop-sidebar__link" href="footer.html"> Footer</a>
+            </li>
+        </ul>
+
+        <h2 class="l-pt-250 l-pb-050 u-text-clr-accent desktop-sidebar__heading">Components</h2>
+        <ul class="desktop-sidebar__list">
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">12</span> <a class="desktop-sidebar__link" href="cards.html"> Cards</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">13</span> <a class="desktop-sidebar__link" href="forms.html"> Forms</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">14</span> <a class="desktop-sidebar__link" href="accordion.html"> Accordion</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">15</span> <a class="desktop-sidebar__link" href="lists.html"> Lists</a>
+            </li>
+        </ul>
+
+
+    </div>
+    <!-- Navigation ends -->
+    <!-- Main section -->
+    <main class="main">
+        <!-- Page header -->
+        <div class="page-header l-display-flex l-jc-center l-mb-400">
+            <h1 class="page-header__header l-mx-auto  u-fw-900 u-fs-monumental u-text-secondary">Breadcrumbs</h1>
+        </div>
+        <!-- Notation -->
+        <div class="notation l-display-flex l-flex-direction-column l-jc-center l-mb-100 l-mx-auto">
+            <h2 class="notation__header l-mb-150 u-fw-700 u-fs-xxl u-text-secondary l-mx-auto">Notation</h2>
+            <div class="l-display-flex l-flex-wrap-wrap">
+                <p class="notation__text  l-mw-mobile-040-ch l-mb-100 l-mx-auto u-fw-500 u-text-primary u-text-clr-secondary-darker">A <span class="notation__span u-fw-700 u-text-clr-accent-lighter">breadcrumb</span> is a textual map that helps users know their location on websites and aids in navigating back and forth within the site,
+                    <br>generally place above page titles.
+                </p>
+                <p class="notation__text l-mw-mobile-040-ch  l-mb-100 l-mx-auto u-fw-500 u-text-primary u-text-clr-secondary-darker"> A breadcrumb trail has four main parts:
+                    <br> <span class="notation__span u-fw-700 u-text-clr-accent-lighter">Home ,Page link, Separator,and Current page. </span>
+                    <br>
+                </p>
+            </div>
+        </div>
+        <!-- Example -->
+        <div class="notation l-display-flex l-flex-direction-column l-jc-center l-mb-100 l-mx-auto u-bg-clr-primary-lighter l-pt-100">
+            <h2 class="notation__header l-mb-150 u-fw-700 u-fs-xxl u-text-secondary l-mx-auto">Example</h2>
+            <div class="l-display-flex l-flex-wrap-wrap">
+                <p class="notation__text l-desk-max-width-80ch l-mw-mobile-040-ch l-mb-100 l-mx-auto u-fw-500 u-text-primary u-text-clr-secondary-darker">Home
+                    <br>Home <span class="notation__span u-fw-700 u-text-clr-accent-lighter">&gt; Current Page</span>
+                    <br>Home &gt; Page Link 1<span class="notation__span u-fw-700 u-text-clr-accent-lighter"> &gt; Current Page</span>
+                    <br>Home &gt; Page Link 1 &gt; Page Link 2 <span class="notation__span u-fw-700 u-text-clr-accent-lighter"> &gt; Current Page</span>
+                    <br>Home &gt; ... <span class="notation__span u-fw-700 u-text-clr-accent-lighter">&gt; Current Page</span>
+                </p>
+                <p class="notation__text l-mw-mobile-040-ch  l-mb-100 l-mx-auto u-fw-500 u-text-primary u-text-clr-primary-lighter l-mob-display-none l-desk-display-block"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, corrupti.
+                </p>
+            </div>
+        </div>
+        <!-- Usage for hierarchical website-->
+        <div class="notation l-display-flex l-flex-direction-column l-jc-center l-mb-150 l-mx-auto">
+            <h2 class="notation__header  u-fw-700 u-fs-xxl u-text-secondary l-mx-auto">Usage</h2>
+        </div>
+        <div class="notation l-display-flex l-flex-direction-column l-jc-center l-mb-150 l-mx-auto">
+            <h4 class="notation__header  u-fw-700 u-fs-xl u-text-clr-secondary-darker l-mx-auto">For Hierarchical Website</h4>
+        </div>
+        <!-- HTML Copiable code -->
+        <div class="notation dis-flex-header l-display-flex l-mx-auto  l-jc-center ">
+            <p class="notation__text l-mw-mobile-040-ch   l-mx-auto u-fw-500 u-text-primary u-text-clr-secondary-darker"> HTML Structure
+                <span class="notation__span u-fw-700 u-text-clr-accent-lighter">(add to each page.) </span>
+
+            </p>
+        </div>
+        <div class="jus-cen l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 l-mb-150">
+            <div class="u-text-primary u-bg-clr-primary-lighter u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+                &lt;div id="breadcrumb"&gt;&lt;/div&gt;
+            </div>
+        </div>
+        <!-- Javascript Copiable code -->
+        <div class="notation dis-flex-header l-display-flex l-mx-auto  l-jc-center ">
+            <p class="notation__text l-mw-mobile-040-ch   l-mx-auto u-fw-500 u-text-primary u-text-clr-secondary-darker"> JavaScript
+                <span class="notation__span u-fw-700 u-text-clr-accent-lighter"></span>
+
+            </p>
+        </div>
+        <!--code  -->
+        <div class="jus-cen l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 l-mb-150">
+            <div class="u-text-primary u-bg-clr-primary-lighter u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+
+                <code>
+                    function generateBreadcrumb() { <br>
+                        var url = window.location.pathname; <br>
+                        var urlSegments = url.split('/').filter(segment =&gt; segment !== '');    <br>                              
+                        var breadcrumbHTML = '&lt;a href="/"&gt;Home&lt;/a&gt;'; <br>
+                        
+                        var currentUrl = '/'; <br>
+                        for (var i = 0; i &lt; urlSegments.length; i++) { <br>
+                            currentUrl += urlSegments[i] + '/'; <br>
+                            var segment = urlSegments[i].charAt(0).toUpperCase() + urlSegments[i].slice(1);  <br>
+                            breadcrumbHTML += ' / &lt;a href="' + currentUrl + '"&gt;' + segment + '&lt;/a&gt;';  <br>
+                        } <br>
+                        
+                        document.getElementById('breadcrumb').innerHTML = breadcrumbHTML; <br>
+                    } <br>
+        
+                    window.onload = generateBreadcrumb;
+                </code>
+            </div>
+        </div>
+
+
+        <!-- Usage for Single page website-->
+        <div class="notation l-display-flex l-flex-direction-column l-jc-center l-mb-150 l-mx-auto l-mt-400 ">
+            <h4 class="notation__header  u-fw-700 u-fs-xl u-text-clr-secondary-darker l-mx-auto">For Single Page Website</h4>
+        </div>
+        <!-- HTML Copiable code -->
+        <div class="notation dis-flex-header l-display-flex l-mx-auto  l-jc-center ">
+            <p class="notation__text l-mw-mobile-040-ch   l-mx-auto u-fw-500 u-text-primary u-text-clr-secondary-darker"> HTML Structure </p>
+        </div>
+        <div class="jus-cen l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 l-mb-150">
+            <div class="u-text-primary u-bg-clr-primary-lighter u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+                &lt;div id="breadcrumb"&gt; <br> &lt;a href="index.html"&gt;Home&lt;/a&gt;<br>&lt;span class="separator"&gt;&nbsp;&gt;&nbsp;&lt;/span&gt; <br> &lt;a href="#" id="#sectionNumber"&gt;Section&lt;/a&gt; <br>&lt;span class="separator"&gt;&nbsp;&gt;&nbsp;&lt;/span&gt;
+                <br>&lt;a href="#" id="#sectionNumber"&gt;Current Section&lt;/a&gt;
+                <br>&lt; /div&gt;
+            </div>
+        </div>
+        <!-- Javascript Copiable code -->
+        <div class="notation dis-flex-header l-display-flex l-mx-auto  l-jc-center ">
+            <p class="notation__text l-mw-mobile-040-ch   l-mx-auto u-fw-500 u-text-primary u-text-clr-secondary-darker"> JavaScript
+                <span class="notation__span u-fw-700 u-text-clr-accent-lighter"></span>
+
+            </p>
+        </div>
+        <div class="jus-cen l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+            <div class="u-text-primary u-bg-clr-primary-lighter u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+
+                <code>
+                        function copyCode() { <br>
+                            var code = document.querySelector('.breadcrumbs').innerHTML; <br>
+                            navigator.clipboard.writeText(code) <br>
+                                .then(() =&gt; alert('Code copied successfully!')) <br>
+                                .catch(err =&gt; console.error('Failed to copy code: ', err)); <br>
+                        }
+                    </code>
+
+            </div>
+        </div>
+        <!-- Code copy notification -->
+        <div class="copyNotification u-text-primary" id="copyNotification">Copied!</div>
+    </main>
+
+    <script src="design-system.js"></script>
+</body>
+
+</html>

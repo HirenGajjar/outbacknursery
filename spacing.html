@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="design-system.css  ">
+    <title>Spacing | Design System</title>
+</head>
+
+<body>
+    <!--Top Navigation -->
+    <nav class=" u-fs-m navigation u-text-accent u-text-clr-accent-lighter l-py-100   u-bg-clr-primary">
+        <a href="design-system.html" class="navigation__link  u-text-clr-accent-lighter l-pl-100">Design system</a>
+        <span id="menu-icon" class="navigation__icon l-pr-100">
+            <div class="navigation__circle"></div>
+            <div class="navigation__circle"></div>
+            <div class="navigation__circle"></div>
+        </span>
+        <div class="navigation__menu-links menu-links  l-pr-100">
+            <a href="about-me.html" class="menu-links__link l-pr-200">About me</a>
+            <a href="index.html" class="menu-links__link  ">Demo site</a>
+        </div>
+    </nav>
+    <!-- Mobile view sidebar -->
+
+    <div class="u-fs-m mobile-sidebar l-pt-050  u-text-accent u-text-clr-accent-lighter u-bg-clr-primary-lighter">
+        <div class="mobile-sidebar__content  l-px-300 l-pt-300">
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <a href="about-me.html" class="mobile-sidebar__link">About Me</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <a href="index.html" class="mobile-sidebar__link">Demo Site</a>
+                </li>
+            </ul>
+        </div>
+        <div class="l-py-100 l-px-300">
+            <h2 class="u-text-clr-accent mobile-sidebar__heading l-pt-150 l-pb-050">Branding</h2>
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 mobile-sidebar__number l-pr-050">01</span> <a class="mobile-sidebar__link" href="colours.html"> Colours</a>
+
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 mobile-sidebar__number l-pr-050">02</span> <a class="mobile-sidebar__link " href="typography.html">Typography</a>
+                </li>
+
+            </ul>
+            <h2 class="u-text-clr-accent mobile-sidebar__heading l-pt-150 l-pb-050">Utilities</h2>
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">03</span> <a class="mobile-sidebar__link active" href="spacing.html"> Spacing</a>
+
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">04</span> <a class="mobile-sidebar__link" href="containers.html"> Containers</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">05</span> <a class="mobile-sidebar__link" href="images.html"> Images</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">06</span><a class="mobile-sidebar__link" href="interactive.html"> Interactive</a>
+                </li>
+
+            </ul>
+            <h2 class="u-text-clr-accent mobile-sidebar__heading l-pt-150 l-pb-050">Navigation</h2>
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">07</span><a class="mobile-sidebar__link" href="navbars.html"> Navbars</a>
+
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">08</span> <a class="mobile-sidebar__link" href="breadcrumbs.html"> Breadcrumbs</a>
+                </li>
+
+            </ul>
+            <h2 class="u-text-clr-accent mobile-sidebar__heading l-pt-150 l-pb-050">Blocks</h2>
+            <ul>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">09</span><a class="mobile-sidebar__link" href="hero.html"> Hero</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">10</span> <a class="mobile-sidebar__link" href="carousel.html">Carousel</a>
+                </li>
+
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">11</span> <a class="mobile-sidebar__link" href="footer.html"> Footer</a>
+                </li>
+            </ul>
+
+            <h2 class="u-text-clr-accent mobile-sidebar__heading l-pt-150 l-pb-050">Components</h2>
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">12</span> <a class="mobile-sidebar__link" href="cards.html"> Cards</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">13</span> <a class="mobile-sidebar__link" href="forms.html"> Forms</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">14</span> <a class="mobile-sidebar__link" href="accordion.html"> Accordion</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">15</span> <a class="mobile-sidebar__link" href="lists.html"> Lists</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- Desktop view Navigation -->
+    <div class="u-bg-clr-primary-lighter l-px-300 desktop-sidebar u-text-accent u-text-clr-accent-lighter">
+
+        <h2 class="l-pt-250 l-pb-050 u-text-clr-accent desktop-sidebar__heading">Branding</h2>
+
+        <ul class="desktop-sidebar__list">
+            <li class="desktop-sidebar__item">
+
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">01</span> <a class="desktop-sidebar__link" href="colours.html"> Colours</a>
+
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">02</span> <a class="desktop-sidebar__link " href="typography.html">Typography</a>
+            </li>
+
+        </ul>
+
+        <h2 class="l-pt-250 l-pb-050 u-text-clr-accent desktop-sidebar__heading">Utilities</h2>
+        <ul class="desktop-sidebar__list">
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">03</span> <a class="desktop-sidebar__link active" href="spacing.html"> Spacing</a>
+
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">04</span> <a class="desktop-sidebar__link" href="containers.html"> Containers</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">05</span> <a class="desktop-sidebar__link" href="images.html"> Images</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">06</span><a class="desktop-sidebar__link" href="interactive.html"> Interactive</a>
+            </li>
+
+        </ul>
+
+        <h2 class="l-pt-250 l-pb-050 u-text-clr-accent desktop-sidebar__heading">Navigation</h2>
+        <ul>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">07</span><a class="desktop-sidebar__link" href="navbars.html"> Navbars</a>
+
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">08</span> <a class="desktop-sidebar__link" href="breadcrumbs.html"> Breadcrumbs</a>
+            </li>
+
+        </ul>
+        <h2 class="l-pt-250 l-pb-050 u-text-clr-accent desktop-sidebar__heading">Blocks</h2>
+        <ul class="desktop-sidebar__list">
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">09</span><a class="desktop-sidebar__link" href="hero.html"> Hero</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">10</span> <a class="desktop-sidebar__link" href="carousel.html">Carousel</a>
+            </li>
+
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">11</span> <a class="desktop-sidebar__link" href="footer.html"> Footer</a>
+            </li>
+        </ul>
+
+        <h2 class="l-pt-250 l-pb-050 u-text-clr-accent desktop-sidebar__heading">Components</h2>
+        <ul class="desktop-sidebar__list">
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">12</span> <a class="desktop-sidebar__link" href="cards.html"> Cards</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">13</span> <a class="desktop-sidebar__link" href="forms.html"> Forms</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">14</span> <a class="desktop-sidebar__link" href="accordion.html"> Accordion</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">15</span> <a class="desktop-sidebar__link" href="lists.html"> Lists</a>
+            </li>
+        </ul>
+
+
+    </div>
+    <!-- Navigation Ends -->
+    <!-- Main -->
+    <main class="main">
+        <!-- Header -->
+        <div class="spacing-header l-display-flex l-jc-center l-mb-400">
+            <h1 class="spacing-header__header l-mx-auto  u-fw-900 u-fs-monumental u-text-secondary">Spacing</h1>
+        </div>
+        <!-- Notation -->
+        <div class="notation l-display-flex l-flex-direction-column l-jc-center l-mb-100 l-mx-auto">
+            <h2 class="notation__header l-mb-150 u-fw-700 u-fs-xxl u-text-secondary l-mx-auto">Notation</h2>
+            <div class="l-display-flex l-flex-wrap-wrap">
+                <p class="notation__text  l-mw-mobile-040-ch l-mb-100 l-mx-auto u-fw-500 u-text-primary u-text-clr-secondary-darker">The spacing layout classes are named using the format
+                    <span class="notation__span u-fw-700 u-text-clr-accent-lighter">l-{property}{sides}-{size}</span>. <br><br> The sides are named using shorthand as shown in the example.
+                    <span class="notation__span u-fw-700 u-text-clr-accent-lighter">ml is margin-left <i>or</i> pt is padding-top </span>.</p>
+                <p class="notation__text l-mw-mobile-040-ch  l-mb-100 l-mx-auto u-fw-500 u-text-primary u-text-clr-secondary-darker"> Similarly, the size applied to each side starts at a quarter of a unit, increasing with each step. In other words,
+                    <span class="notation__span u-fw-700 u-text-clr-accent-lighter">'050' represents 0.5rem (8px), and '125' denotes 1.25rem (20px)</span>.</p>
+            </div>
+        </div>
+        <!-- Sub header margin -->
+        <div class="margin l-display-flex l-jc-center l-mb-100">
+            <h2 class="margin__header u-fw-700 u-fs-xxl u-text-secondary l-mx-auto">Margin</h2>
+        </div>
+        <!-- Margin Left -->
+        <div class="margin-left l-display-flex l-flex-direction-column  u-bg-clr-primary-lighter">
+            <h3 class="margin-left__header l-mx-auto  u-fw-600 l-py-100 l-mb-200 u-fs-xl u-text-secondary u-text-clr-secondary-darker">Margin-left</h3>
+
+            <!-- 1 rem -->
+            <div class="margin-left__example l-max-width-080  l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center">
+                <span class="margin-left__example__demo u-bg-clr-secondary u-text-clr-primary u-fs-xxl l-pl-100 l-pb-025">&centerdot;</span>
+                <div class="margin-left__text l-display-flex  l-mr-100 l-gap-100">
+                    <p class="margin-left__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer  copyClass">l-ml-100</p>
+                    <p class="margin-left__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">1rem (16px)</p>
+                </div>
+            </div>
+
+            <!-- 2 rem -->
+            <div class="margin-left__example l-max-width-080  l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center">
+                <span class="margin-left__example__demo u-bg-clr-secondary u-text-clr-primary u-fs-xxl l-pl-200 l-pb-025">&centerdot;</span>
+                <div class="margin-left__text l-display-flex  l-mr-100 l-gap-100">
+                    <p class="margin-left__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-ml-200</p>
+                    <p class="margin-left__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">2rem (32px)</p>
+                </div>
+            </div>
+            <!-- 3 rem -->
+            <div class="margin-left__example l-max-width-080  l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center">
+                <span class="margin-left__example__demo u-bg-clr-secondary u-text-clr-primary u-fs-xxl l-pl-300 l-pb-025">&centerdot;</span>
+                <div class="margin-left__text l-display-flex l-mr-100 l-gap-100">
+                    <p class="margin-left__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-ml-300</p>
+                    <p class="margin-left__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">3rem (48px)</p>
+                </div>
+            </div>
+            <!-- 4 rem -->
+            <div class="margin-left__example l-max-width-080  l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center">
+                <span class="margin-left__example__demo u-bg-clr-secondary u-text-clr-primary u-fs-xxl l-pl-400 l-pb-025">&centerdot;</span>
+                <div class="margin-left__text l-display-flex  l-mr-100 l-gap-100">
+                    <p class="margin-left__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-ml-400</p>
+                    <p class="margin-left__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">4rem (64px)</p>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Margin Right -->
+        <div class="margin-right l-display-flex l-flex-direction-column  u-bg-clr-primary">
+            <h3 class="margin-right__header l-mx-auto  u-fw-600 l-py-100 l-mb-200 u-fs-xl u-text-secondary u-text-clr-secondary-darker">Margin-right</h3>
+
+            <!-- 1 rem -->
+            <div class="margin-right__example l-max-width-080  l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center">
+                <span class="margin-right__example__demo u-bg-clr-secondary u-text-clr-primary u-fs-xxl l-pr-100 l-pb-025">&centerdot;</span>
+                <div class="margin-right__text l-display-flex    l-mr-100 l-gap-100">
+                    <p class="margin-right__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-mr-100</p>
+                    <p class="margin-right__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">1rem (16px)</p>
+                </div>
+            </div>
+
+            <!-- 2 rem -->
+            <div class="margin-right__example l-max-width-080   l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center">
+                <span class="margin-right__example__demo u-bg-clr-secondary u-text-clr-primary u-fs-xxl l-pr-200 l-pb-025">&centerdot;</span>
+                <div class="margin-right__text l-display-flex    l-mr-100 l-gap-100">
+                    <p class="margin-right__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-mr-200</p>
+                    <p class="margin-right__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">2rem (32px)</p>
+                </div>
+            </div>
+            <!-- 3 rem -->
+            <div class="margin-right__example l-max-width-080  l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center">
+                <span class="margin-right__example__demo u-bg-clr-secondary u-text-clr-primary u-fs-xxl l-pr-300 l-pb-025">&centerdot;</span>
+                <div class="margin-right__text l-display-flex    l-mr-100 l-gap-100">
+                    <p class="margin-right__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-mr-300</p>
+                    <p class="margin-right__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">3rem (48px)</p>
+                </div>
+            </div>
+            <!-- 4 rem -->
+            <div class="margin-right__example l-max-width-080  l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center">
+                <span class="margin-right__example__demo u-bg-clr-secondary u-text-clr-primary u-fs-xxl l-pr-400 l-pb-025">&centerdot;</span>
+                <div class="margin-right__text l-display-flex    l-mr-100 l-gap-100">
+                    <p class="margin-right__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-mr-400</p>
+                    <p class="margin-right__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">4rem (64px)</p>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Margin Top -->
+        <div class="margin-top l-display-flex l-flex-wrap-wrap l-flex-direction-column  u-bg-clr-primary-lighter">
+            <h3 class="margin-top__header l-mx-auto  u-fw-600 l-py-100 l-mb-200 u-fs-xl u-text-secondary u-text-clr-secondary-darker">Margin-top</h3>
+            <div class="l-display-flex l-flex-wrap-wrap">
+                <!-- 1 rem -->
+                <div class="margin-top__example l-max-width-080  l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="margin-top__example__demo u-bg-clr-secondary u-text-clr-primary l-mx-auto u-fs-xxl l-pt-100">&centerdot;</span>
+                    <div class="margin-top__text l-display-flex l-jc-center l-pt-100   l-mr-100 l-gap-100">
+                        <p class="margin-top__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-mt-100</p>
+                        <p class="margin-top__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">1rem (16px)</p>
+                    </div>
+                </div>
+                <!-- 2 rem -->
+                <div class="margin-top__example l-max-width-080  l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="margin-top__example__demo u-bg-clr-secondary u-text-clr-primary l-mx-auto u-fs-xxl l-pt-200">&centerdot;</span>
+                    <div class="margin-top__text l-display-flex l-jc-center l-pt-100  l-mr-100 l-gap-100">
+                        <p class="margin-top__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-mt-200</p>
+                        <p class="margin-top__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">2rem (32px)</p>
+                    </div>
+                </div>
+                <!-- 3 rem -->
+                <div class="margin-top__example l-max-width-080  l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="margin-top__example__demo u-bg-clr-secondary u-text-clr-primary l-mx-auto u-fs-xxl l-pt-300">&centerdot;</span>
+                    <div class="margin-top__text l-display-flex l-jc-center l-pt-100  l-mr-100 l-gap-100">
+                        <p class="margin-top__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-mt-300</p>
+                        <p class="margin-top__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">3rem (48px)</p>
+                    </div>
+                </div>
+                <!-- 4 rem -->
+                <div class="margin-top__example l-max-width-080  l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="margin-top__example__demo u-bg-clr-secondary u-text-clr-primary l-mx-auto u-fs-xxl l-pt-400">&centerdot;</span>
+                    <div class="margin-top__text l-display-flex l-jc-center l-pt-100  l-mr-100 l-gap-100">
+                        <p class="margin-top__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-mt-400</p>
+                        <p class="margin-top__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">4rem (64px)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Margin Bottom -->
+        <div class="margin-bottom l-display-flex l-flex-wrap-wrap l-flex-direction-column  u-bg-clr-primary">
+            <h3 class="margin-top__header l-mx-auto  u-fw-600 l-py-100 l-mb-200 u-fs-xl u-text-secondary u-text-clr-secondary-darker">Margin-bottom</h3>
+            <div class="l-display-flex l-flex-wrap-wrap">
+                <!-- 1 rem -->
+                <div class="margin-bottom__example l-max-width-080  l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="margin-bottom__example__demo u-bg-clr-secondary u-text-clr-primary l-mx-auto u-fs-xxl l-pb-100">&centerdot;</span>
+                    <div class="margin-bottom__text l-display-flex l-jc-center l-pt-100  l-mr-100 l-gap-100">
+                        <p class="margin-bottom__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-mb-100</p>
+                        <p class="margin-bottom__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">1rem (16px)</p>
+                    </div>
+                </div>
+                <!-- 2 rem -->
+                <div class="margin-bottom__example l-max-width-080  l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="margin-bottom__example__demo u-bg-clr-secondary u-text-clr-primary l-mx-auto u-fs-xxl l-pb-200">&centerdot;</span>
+                    <div class="margin-bottom__text l-display-flex l-jc-center l-pt-100 l-mr-100 l-gap-100">
+                        <p class="margin-bottom__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-mb-200</p>
+                        <p class="margin-bottom__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">2rem (32px)</p>
+                    </div>
+                </div>
+                <!-- 3 rem -->
+                <div class="margin-bottom__example l-max-width-080  l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="margin-bottom__example__demo u-bg-clr-secondary u-text-clr-primary l-mx-auto u-fs-xxl l-pb-300">&centerdot;</span>
+                    <div class="margin-bottom__text l-display-flex l-jc-center l-pt-100  l-mr-100 l-gap-100">
+                        <p class="margin-bottom__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-mb-300</p>
+                        <p class="margin-bottom__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">3rem (48px)</p>
+                    </div>
+                </div>
+                <!-- 4 rem -->
+                <div class="margin-bottom__example l-max-width-080  l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="margin-bottom__example__demo u-bg-clr-secondary u-text-clr-primary l-mx-auto u-fs-xxl l-pb-400">&centerdot;</span>
+                    <div class="margin-bottom__text l-display-flex l-jc-center l-pt-100  l-mr-100 l-gap-100">
+                        <p class="margin-bottom__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-mb-400</p>
+                        <p class="margin-bottom__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">4rem (64px)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Note -->
+        <div class="note l-mt-100 l-display-flex l-flex-direction-column l-jc-center  l-mx-auto u-bg-clr-primary-lighter l-py-150">
+            <h3 class="note__header l-mb-150 u-fw-700 u-fs-xxl u-text-secondary l-mx-auto">Horizontal spacing
+            </h3>
+            <div class="l-display-flex l-flex-wrap-wrap">
+                <p class="note__text l-mw-mobile-040-ch   l-mb-100 l-mx-auto u-fw-500 u-text-primary u-text-clr-secondary-darker">Horizontal spacing layout classes are useful for applying equal spacing along the x-axis of an element.
+
+                </p>
+                <p class="note__text l-mw-mobile-040-ch  l-mb-100 l-mx-auto u-fw-500 u-text-primary u-text-clr-secondary-darker">The sides are named using shorthand alphabet. '<i>x</i>' (on x-axis).
+                    <span class="note__span u-fw-700 u-text-clr-accent-lighter">mx is margin-left &amp; margin-right <i>or</i> px is padding-left &amp; padding-right </span>.</p>
+                <p class="note__text l-mw-mobile-040-ch l-mb-100 l-mx-auto u-fw-500 u-text-primary u-text-clr-secondary-darker"> The
+                    <span class="note__span u-fw-700 u-text-clr-accent-lighter">key point </span>here is that the same value is applied to both sides..</p>
+            </div>
+        </div>
+        <!-- Margin x axis -->
+
+        <div class="margin-horizontal l-display-flex l-flex-direction-column l-jc-center u-bg-clr-primary ">
+            <h3 class="margin-horizontal__header l-mx-auto  u-fw-600 l-py-100 l-mb-200 u-fs-xl u-text-secondary u-text-clr-secondary-darker">Horizontal-margin </h3>
+
+            <!-- 1 rem -->
+            <div class="margin-horizontal__example l-max-width-080  l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center l-mr-150">
+                <span class="margin-horizontal__example__demo u-bg-clr-secondary u-text-clr-primary u-fs-xxl l-px-100 l-pb-025">&centerdot;</span>
+                <div class="margin-horizontal__text l-display-flex l-gap-100 ">
+                    <p class="margin-horizontal__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-mx-100</p>
+                    <p class="margin-horizontal__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">1rem (16px)</p>
+                </div>
+            </div>
+
+            <!-- 2 rem -->
+            <div class="margin-horizontal__example l-max-width-080  l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center l-mr-150">
+                <span class="margin-horizontal__example__demo u-bg-clr-secondary u-text-clr-primary u-fs-xxl l-px-200 l-pb-025">&centerdot;</span>
+                <div class="margin-horizontal__text l-display-flex l-gap-100 ">
+                    <p class="margin-horizontal__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-mx-200</p>
+                    <p class="margin-horizontal__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">2rem (32px)</p>
+                </div>
+            </div>
+            <!-- 3 rem -->
+            <div class="margin-horizontal__example l-max-width-080  l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center l-mr-150">
+                <span class="margin-horizontal__example__demo u-bg-clr-secondary u-text-clr-primary u-fs-xxl l-px-300 l-pb-025">&centerdot;</span>
+                <div class="margin-horizontal__text l-display-flex l-gap-100 ">
+                    <p class="margin-horizontal__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-mx-300</p>
+                    <p class="margin-horizontal__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">3rem (48px)</p>
+                </div>
+            </div>
+            <!-- 4 rem -->
+            <div class="margin-horizontal__example l-max-width-080  l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center l-mr-150">
+                <span class="margin-horizontal__example__demo u-bg-clr-secondary u-text-clr-primary u-fs-xxl l-px-400 l-pb-025">&centerdot;</span>
+                <div class="margin-horizontal__text l-display-flex l-gap-100 ">
+                    <p class="margin-horizontal__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-mx-400</p>
+                    <p class="margin-horizontal__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">4rem (64px)</p>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Margin y axis -->
+        <div class="margin-vertical l-display-flex l-flex-wrap-wrap l-flex-direction-column  u-bg-clr-primary-lighter">
+
+            <h3 class="margin-vertical__header l-mx-auto  u-fw-600 l-py-100 l-mb-200 u-fs-xl u-text-secondary u-text-clr-secondary-darker">Vertical-margin</h3>
+            <div class="l-display-flex l-flex-wrap-wrap">
+                <!-- 1 rem -->
+                <div class="margin-vertical__example l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="margin-vertical__example__demo u-bg-clr-secondary u-text-clr-primary l-mx-auto u-fs-xxl l-py-100">&centerdot;</span>
+                    <div class="margin-vertical__text l-display-flex l-jc-center l-pt-100 l-gap-100">
+                        <p class="margin-vertical__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-my-100</p>
+                        <p class="margin-vertical__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">1rem (16px)</p>
+                    </div>
+                </div>
+                <!-- 2 rem -->
+                <div class="margin-vertical__example l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="margin-vertical__example__demo u-bg-clr-secondary u-text-clr-primary l-mx-auto u-fs-xxl l-py-200">&centerdot;</span>
+                    <div class="margin-vertical__text l-display-flex l-jc-center l-pt-100 l-gap-100">
+                        <p class="margin-vertical__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-my-200</p>
+                        <p class="margin-vertical__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">2rem (32px)</p>
+                    </div>
+                </div>
+                <!-- 3 rem -->
+                <div class="margin-vertical__example l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="margin-vertical__example__demo u-bg-clr-secondary u-text-clr-primary l-mx-auto u-fs-xxl l-py-300">&centerdot;</span>
+                    <div class="margin-vertical__text l-display-flex l-jc-center l-pt-100 l-gap-100">
+                        <p class="margin-vertical__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-my-300</p>
+                        <p class="margin-vertical__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">3rem (48px)</p>
+                    </div>
+                </div>
+                <!-- 4 rem -->
+                <div class="margin-vertical__example l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="margin-vertical__example__demo u-bg-clr-secondary u-text-clr-primary l-mx-auto u-fs-xxl l-py-400">&centerdot;</span>
+                    <div class="margin-vertical__text l-display-flex l-jc-center l-pt-100 l-gap-100">
+                        <p class="margin-vertical__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-my-400</p>
+                        <p class="margin-vertical__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">4rem (64px)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Padding -->
+        <!-- Sub header Padding -->
+        <div class="padding l-display-flex l-jc-center l-mb-100">
+            <h2 class="padding__header u-fw-700 u-fs-xxl u-text-secondary l-my-200 l-mx-auto">Padding</h2>
+        </div>
+        <!-- Padding Left -->
+        <div class="padding-left l-display-flex l-flex-direction-column  u-bg-clr-primary-lighter">
+            <h3 class="padding-left__header l-mx-auto  u-fw-600 l-py-100 l-mb-200 u-fs-xl u-text-secondary u-text-clr-secondary-darker">Padding-left</h3>
+
+            <!-- 1 rem -->
+            <div class="padding-left__example l-max-width-080  l-max-width-080 l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center">
+                <span class="padding-left__example__demo  u-fs-xxl l-pl-100 l-pb-025">&centerdot;</span>
+                <div class="padding-left__text l-display-flex   l-mr-100 l-gap-100">
+                    <p class="padding-left__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-pl-100</p>
+                    <p class="padding-left__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">1rem (16px)</p>
+                </div>
+            </div>
+
+            <!-- 2 rem -->
+            <div class="padding-left__example l-max-width-080  l-max-width-080  l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center">
+                <span class="padding-left__example__demo   u-fs-xxl l-pl-200 l-pb-025">&centerdot;</span>
+                <div class="padding-left__text l-display-flex  l-mr-100 l-gap-100 ">
+                    <p class="padding-left__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-pl-200</p>
+                    <p class="padding-left__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">2rem (32px)</p>
+                </div>
+            </div>
+            <!-- 3 rem -->
+            <div class="padding-left__example l-max-width-080  l-max-width-080 l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center">
+                <span class="padding-left__example__demo  u-fs-xxl l-pl-300 l-pb-025">&centerdot;</span>
+                <div class="padding-left__text l-display-flex   l-mr-100 l-gap-100">
+                    <p class="padding-left__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-pl-300</p>
+                    <p class="padding-left__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">3rem (48px)</p>
+                </div>
+            </div>
+            <!-- 4 rem -->
+            <div class="padding-left__example l-max-width-080  l-max-width-080 l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center">
+                <span class="padding-left__example__demo  u-fs-xxl l-pl-400 l-pb-025">&centerdot;</span>
+                <div class="padding-left__text l-display-flex   l-mr-100 l-gap-100">
+                    <p class="padding-left__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-pl-400</p>
+                    <p class="padding-left__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">4rem (64px)</p>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Padding Right -->
+        <div class="padding-right l-display-flex l-flex-direction-column  u-bg-clr-primary">
+            <h3 class="padding-right__header l-mx-auto  u-fw-600 l-py-100 l-mb-200 u-fs-xl u-text-secondary u-text-clr-secondary-darker">Padding-right</h3>
+
+            <!-- 1 rem -->
+            <div class="padding-right__example l-max-width-080  l-max-width-080 l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center">
+                <span class="padding-right__example__demo  u-fs-xxl l-pr-100 l-pb-025">&centerdot;</span>
+                <div class="padding-right__text l-display-flex  l-mr-100 l-gap-100">
+                    <p class="padding-right__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-pl-100</p>
+                    <p class="padding-right__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">1rem (16px)</p>
+                </div>
+            </div>
+
+            <!-- 2 rem -->
+            <div class="padding-right__example l-max-width-080  l-max-width-080  l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center">
+                <span class="padding-right__example__demo   u-fs-xxl l-pr-200 l-pb-025">&centerdot;</span>
+                <div class="padding-right__text l-display-flex  l-mr-100 l-gap-100">
+                    <p class="padding-right__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-pl-200</p>
+                    <p class="padding-right__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">2rem (32px)</p>
+                </div>
+            </div>
+            <!-- 3 rem -->
+            <div class="padding-right__example l-max-width-080  l-max-width-080 l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center">
+                <span class="padding-right__example__demo  u-fs-xxl l-pr-300 l-pb-025">&centerdot;</span>
+                <div class="padding-right__text l-display-flex  l-mr-100 l-gap-100">
+                    <p class="padding-right__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-pl-300</p>
+                    <p class="padding-right__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">3rem (48px)</p>
+                </div>
+            </div>
+            <!-- 4 rem -->
+            <div class="padding-right__example l-max-width-080  l-max-width-080 l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center">
+                <span class="padding-right__example__demo  u-fs-xxl l-pr-400 l-pb-025">&centerdot;</span>
+                <div class="padding-right__text l-display-flex  l-mr-100 l-gap-100">
+                    <p class="padding-right__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-pl-400</p>
+                    <p class="padding-right__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">4rem (64px)</p>
+                </div>
+            </div>
+        </div>
+        <!-- Padding Top -->
+        <div class="padding-top l-display-flex l-flex-wrap-wrap l-flex-direction-column  u-bg-clr-primary-lighter">
+            <h3 class="padding-top__header l-mx-auto  u-fw-600 l-py-100 l-mb-200 u-fs-xl u-text-secondary u-text-clr-secondary-darker">Padding-top</h3>
+            <div class="l-display-flex l-flex-wrap-wrap">
+                <!-- 1 rem -->
+                <div class="padding-top__example l-max-width-080  l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="padding-top__example__demo  l-mx-auto u-fs-xxl l-pt-100">&centerdot;</span>
+                    <div class="padding-top__text l-display-flex l-jc-center l-pt-100  l-mr-100 l-gap-100">
+                        <p class="padding-top__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-pt-100</p>
+                        <p class="padding-top__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">1rem (16px)</p>
+                    </div>
+                </div>
+                <!-- 2 rem -->
+                <div class="padding-top__example l-max-width-080  l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="padding-top__example__demo  l-mx-auto u-fs-xxl l-pt-200">&centerdot;</span>
+                    <div class="padding-top__text l-display-flex l-jc-center l-pt-100  l-mr-100 l-gap-100">
+                        <p class="padding-top__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-pt-200</p>
+                        <p class="padding-top__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">2rem (32px)</p>
+                    </div>
+                </div>
+                <!-- 3 rem -->
+                <div class="padding-top__example l-max-width-080  l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="padding-top__example__demo  l-mx-auto u-fs-xxl l-pt-300">&centerdot;</span>
+                    <div class="padding-top__text l-display-flex l-jc-center l-pt-100  l-mr-100 l-gap-100">
+                        <p class="padding-top__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-pt-300</p>
+                        <p class="padding-top__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">3rem (48px)</p>
+                    </div>
+                </div>
+                <!-- 4 rem -->
+                <div class="padding-top__example l-max-width-080  l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="padding-top__example__demo  l-mx-auto u-fs-xxl l-pt-400">&centerdot;</span>
+                    <div class="padding-top__text l-display-flex l-jc-center l-pt-100  l-mr-100 l-gap-100">
+                        <p class="padding-top__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-pt-400</p>
+                        <p class="padding-top__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">4rem (64px)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Padding Bottom -->
+        <div class="padding-bottom l-display-flex l-flex-wrap-wrap l-flex-direction-column  u-bg-clr-primary">
+            <h3 class="padding-bottom__header l-mx-auto  u-fw-600 l-py-100 l-mb-200 u-fs-xl u-text-secondary u-text-clr-secondary-darker">Padding-bottom</h3>
+            <div class="l-display-flex l-flex-wrap-wrap">
+                <!-- 1 rem -->
+                <div class="padding-bottom__example l-max-width-080  l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="padding-bottom__example__demo  l-mx-auto u-fs-xxl l-pb-100">&centerdot;</span>
+                    <div class="padding-bottom__text l-display-flex l-jc-center l-pt-100  l-mr-100 l-gap-100">
+                        <p class="padding-bottom__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-pb-100</p>
+                        <p class="padding-bottom__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">1rem (16px)</p>
+                    </div>
+                </div>
+                <!-- 2 rem -->
+                <div class="padding-bottom__example l-max-width-080  l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="padding-bottom__example__demo  l-mx-auto u-fs-xxl l-pb-200">&centerdot;</span>
+                    <div class="padding-bottom__text l-display-flex l-jc-center l-pt-100  l-mr-100 l-gap-100">
+                        <p class="padding-bottom__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-pb-200</p>
+                        <p class="padding-bottom__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">2rem (32px)</p>
+                    </div>
+                </div>
+                <!-- 3 rem -->
+                <div class="padding-bottom__example l-max-width-080  l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="padding-bottom__example__demo  l-mx-auto u-fs-xxl l-pb-300">&centerdot;</span>
+                    <div class="padding-bottom__text l-display-flex l-jc-center l-pt-100  l-mr-100 l-gap-100">
+                        <p class="padding-bottom__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-pb-300</p>
+                        <p class="padding-bottom__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">3rem (48px)</p>
+                    </div>
+                </div>
+                <!-- 4 rem -->
+                <div class="padding-bottom__example l-max-width-080  l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="padding-bottom__example__demo  l-mx-auto u-fs-xxl l-pb-400">&centerdot;</span>
+                    <div class="padding-bottom__text l-display-flex l-jc-center l-pt-100  l-mr-100 l-gap-100">
+                        <p class="padding-bottom__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-pb-400</p>
+                        <p class="padding-bottom__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">4rem (64px)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Padding x axis -->
+        <div class="padding-horizontal l-display-flex l-flex-direction-column l-jc-center u-bg-clr-primary-lighter ">
+            <h3 class="padding-horizontal__header l-mx-auto  u-fw-600 l-py-100 l-mb-200 u-fs-xl u-text-secondary u-text-clr-secondary-darker">Horizontal-padding </h3>
+
+
+            <!-- 1 rem -->
+            <div class="padding-horizontal__example l-max-width-080  l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center l-mr-150">
+                <span class="padding-horizontal__example__demo  u-fs-xxl l-px-100 l-pb-025">&centerdot;</span>
+                <div class="padding-horizontal__text l-display-flex l-gap-100 ">
+                    <p class="padding-horizontal__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-px-100</p>
+                    <p class="padding-horizontal__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">1rem (16px)</p>
+                </div>
+            </div>
+
+            <!-- 2 rem -->
+            <div class="padding-horizontal__example l-max-width-080  l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center l-mr-150">
+                <span class="padding-horizontal__example__demo  u-fs-xxl l-px-200 l-pb-025">&centerdot;</span>
+                <div class="padding-horizontal__text l-display-flex  l-gap-100">
+                    <p class="padding-horizontal__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-px-200</p>
+                    <p class="padding-horizontal__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">2rem (32px)</p>
+                </div>
+            </div>
+
+
+            <!-- 3 rem -->
+            <div class="padding-horizontal__example l-max-width-080  l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center l-mr-150">
+                <span class="padding-horizontal__example__demo  u-fs-xxl l-px-300 l-pb-025">&centerdot;</span>
+                <div class="padding-horizontal__text l-display-flex  l-gap-100">
+                    <p class="padding-horizontal__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-px-300</p>
+                    <p class="padding-horizontal__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">3rem (48px)</p>
+                </div>
+            </div>
+            <!-- 4 rem -->
+            <div class="padding-horizontal__example l-max-width-080  l-mb-050 l-display-flex l-flex-wrap-wrap l-jc-space-between l-ml-350 l-align-center l-mr-150">
+                <span class="padding-horizontal__example__demo  u-fs-xxl l-px-400 l-pb-025">&centerdot;</span>
+                <div class="padding-horizontal__text l-display-flex  l-gap-100">
+                    <p class="padding-horizontal__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-px-400</p>
+                    <p class="padding-horizontal__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">4rem (64px)</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Padding y axis -->
+        <div class="padding-vertical l-display-flex l-flex-wrap-wrap l-flex-direction-column  u-bg-clr-primary">
+            <h3 class="padding-vertical__header l-mx-auto  u-fw-600 l-py-100 l-mb-200 u-fs-xl u-text-secondary u-text-clr-secondary-darker">Vertical-padding</h3>
+            <div class="l-display-flex l-flex-wrap-wrap">
+
+                <!-- 1 rem -->
+                <div class="padding-vertical__example l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="padding-vertical__example__demo l-mx-auto u-fs-xxl l-py-100">&centerdot;</span>
+                    <div class="padding-vertical__text l-display-flex l-jc-center l-pt-100  l-mr-100 l-gap-100">
+                        <p class="padding-vertical__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-py-100</p>
+                        <p class="padding-vertical__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">1rem (16px)</p>
+                    </div>
+                </div>
+                <!-- 2 rem -->
+                <div class="padding-vertical__example l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="padding-vertical__example__demo l-mx-auto u-fs-xxl l-py-200">&centerdot;</span>
+                    <div class="padding-vertical__text l-display-flex l-jc-center l-pt-100  l-mr-100 l-gap-100">
+                        <p class="padding-vertical__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-py-200</p>
+                        <p class="padding-vertical__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">2rem (32px)</p>
+                    </div>
+                </div>
+                <!-- 3 rem -->
+                <div class="padding-vertical__example l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="padding-vertical__example__demo l-mx-auto u-fs-xxl l-py-300">&centerdot;</span>
+                    <div class="padding-vertical__text l-display-flex l-jc-center l-pt-100  l-mr-100 l-gap-100">
+                        <p class="padding-vertical__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer copyClass">l-py-300</p>
+                        <p class="padding-vertical__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">3rem (48px)</p>
+                    </div>
+                </div>
+                <!-- 4 rem -->
+                <div class="padding-vertical__example l-display-flex l-jc-center l-flex-direction-column l-mx-auto l-mb-100">
+                    <span class="padding-vertical__example__demo l-mx-auto u-fs-xxl l-py-400">&centerdot;</span>
+                    <div class="padding-vertical__text l-display-flex l-jc-center l-pt-100  l-mr-100 l-gap-100">
+                        <p class="padding-vertical__text__classname u-fw-500 u-text-primary u-text-clr-accent s-cursor-pointer  copyClass">l-py-400</p>
+                        <p class="padding-vertical__text__value u-fw-500 u-text-primary u-text-clr-secondary-darker">4rem (64px)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyNotification u-text-primary" id="copyNotification">Copied!</div>
+
+    </main>
+    <script src="design-system.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="design-system.css  ">
+    <title>Containers | Design System</title>
+</head>
+
+<body>
+    <!--Top Navigation -->
+    <nav class=" u-fs-m navigation u-text-accent u-text-clr-accent-lighter l-py-100   u-bg-clr-primary">
+        <a href="design-system.html" class="navigation__link  u-text-clr-accent-lighter l-pl-100">Design system</a>
+        <span id="menu-icon" class="navigation__icon l-pr-100">
+            <div class="navigation__circle"></div>
+            <div class="navigation__circle"></div>
+            <div class="navigation__circle"></div>
+        </span>
+        <div class="navigation__menu-links menu-links  l-pr-100">
+            <a href="about-me.html" class="menu-links__link l-pr-200">About me</a>
+            <a href="index.html" class="menu-links__link  ">Demo site</a>
+        </div>
+    </nav>
+    <!-- Mobile view sidebar -->
+
+    <div class="u-fs-m mobile-sidebar l-pt-050  u-text-accent u-text-clr-accent-lighter u-bg-clr-primary-lighter">
+        <div class="mobile-sidebar__content  l-px-300 l-pt-300">
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <a href="about-me.html" class="mobile-sidebar__link">About Me</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <a href="index.html" class="mobile-sidebar__link">Demo Site</a>
+                </li>
+            </ul>
+        </div>
+        <div class="l-py-100 l-px-300">
+            <h2 class="u-text-clr-accent mobile-sidebar__heading l-pt-150 l-pb-050">Branding</h2>
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 mobile-sidebar__number l-pr-050">01</span> <a class="mobile-sidebar__link" href="colours.html"> Colours</a>
+
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 mobile-sidebar__number l-pr-050">02</span> <a class="mobile-sidebar__link " href="typography.html">Typography</a>
+                </li>
+
+            </ul>
+            <h2 class="u-text-clr-accent mobile-sidebar__heading l-pt-150 l-pb-050">Utilities</h2>
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">03</span> <a class="mobile-sidebar__link" href="spacing.html"> Spacing</a>
+
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">04</span> <a class="mobile-sidebar__link active" href="containers.html"> Containers</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">05</span> <a class="mobile-sidebar__link" href="images.html"> Images</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">06</span><a class="mobile-sidebar__link" href="interactive.html"> Interactive</a>
+                </li>
+
+            </ul>
+            <h2 class="u-text-clr-accent mobile-sidebar__heading l-pt-150 l-pb-050">Navigation</h2>
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">07</span><a class="mobile-sidebar__link" href="navbars.html"> Navbars</a>
+
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">08</span> <a class="mobile-sidebar__link" href="breadcrumbs.html"> Breadcrumbs</a>
+                </li>
+
+            </ul>
+            <h2 class="u-text-clr-accent mobile-sidebar__heading l-pt-150 l-pb-050">Blocks</h2>
+            <ul>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">09</span><a class="mobile-sidebar__link" href="hero.html"> Hero</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">10</span> <a class="mobile-sidebar__link" href="carousel.html">Carousel</a>
+                </li>
+
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">11</span> <a class="mobile-sidebar__link" href="footer.html"> Footer</a>
+                </li>
+            </ul>
+
+            <h2 class="u-text-clr-accent mobile-sidebar__heading l-pt-150 l-pb-050">Components</h2>
+            <ul class="mobile-sidebar__list">
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">12</span> <a class="mobile-sidebar__link" href="cards.html"> Cards</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">13</span> <a class="mobile-sidebar__link" href="forms.html"> Forms</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">14</span> <a class="mobile-sidebar__link" href="accordion.html"> Accordion</a>
+                </li>
+                <li class="mobile-sidebar__item">
+                    <span class="u-fw-900 l-pr-050 mobile-sidebar__number">15</span> <a class="mobile-sidebar__link" href="lists.html"> Lists</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- Desktop view Navigation -->
+    <div class="u-bg-clr-primary-lighter l-px-300 desktop-sidebar u-text-accent u-text-clr-accent-lighter">
+
+        <h2 class="l-pt-250 l-pb-050 u-text-clr-accent desktop-sidebar__heading">Branding</h2>
+
+        <ul class="desktop-sidebar__list">
+            <li class="desktop-sidebar__item">
+
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">01</span> <a class="desktop-sidebar__link" href="colours.html"> Colours</a>
+
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">02</span> <a class="desktop-sidebar__link " href="typography.html">Typography</a>
+            </li>
+
+        </ul>
+
+        <h2 class="l-pt-250 l-pb-050 u-text-clr-accent desktop-sidebar__heading">Utilities</h2>
+        <ul class="desktop-sidebar__list">
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">03</span> <a class="desktop-sidebar__link" href="spacing.html"> Spacing</a>
+
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">04</span> <a class="desktop-sidebar__link active" href="containers.html"> Containers</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">05</span> <a class="desktop-sidebar__link" href="images.html"> Images</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">06</span><a class="desktop-sidebar__link" href="interactive.html"> Interactive</a>
+            </li>
+
+        </ul>
+
+        <h2 class="l-pt-250 l-pb-050 u-text-clr-accent desktop-sidebar__heading">Navigation</h2>
+        <ul>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">07</span><a class="desktop-sidebar__link" href="navbars.html"> Navbars</a>
+
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">08</span> <a class="desktop-sidebar__link" href="breadcrumbs.html"> Breadcrumbs</a>
+            </li>
+
+        </ul>
+        <h2 class="l-pt-250 l-pb-050 u-text-clr-accent desktop-sidebar__heading">Blocks</h2>
+        <ul class="desktop-sidebar__list">
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">09</span><a class="desktop-sidebar__link" href="hero.html"> Hero</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">10</span> <a class="desktop-sidebar__link" href="carousel.html">Carousel</a>
+            </li>
+
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">11</span> <a class="desktop-sidebar__link" href="footer.html"> Footer</a>
+            </li>
+        </ul>
+
+        <h2 class="l-pt-250 l-pb-050 u-text-clr-accent desktop-sidebar__heading">Components</h2>
+        <ul class="desktop-sidebar__list">
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">12</span> <a class="desktop-sidebar__link" href="cards.html"> Cards</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">13</span> <a class="desktop-sidebar__link" href="forms.html"> Forms</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">14</span> <a class="desktop-sidebar__link" href="accordion.html"> Accordion</a>
+            </li>
+            <li class="desktop-sidebar__item">
+                <span class="u-fw-900 l-pr-050 desktop-sidebar__number">15</span> <a class="desktop-sidebar__link" href="lists.html"> Lists</a>
+            </li>
+        </ul>
+
+
+    </div>
+    <!-- Navigation ends -->
+    <!-- main    -->
+    <main class="main">
+        <!-- H1 header -->
+        <div class="page-header l-display-flex l-jc-center l-mb-400">
+            <h1 class="page-header__header l-mx-auto  u-fw-900 u-fs-monumental u-text-secondary">Containers</h1>
+        </div>
+        <!-- Display -->
+        <div class="flex-context u-bg-clr-primary-lighter l-display-flex l-jc-center l-flex-direction-column">
+            <h2 class="l-py-100 color-context__header  u-fw-700 u-fs-xxl u-text-secondary l-mx-auto">Display</h2>
+        </div>
+
+        <!-- display : flex -->
+        <div class="dis-flex-header l-display-flex l-mx-auto  l-jc-center u-bg-clr-primary-lighter">
+            <h3 class="dis-flex-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">display : flex; </h3>
+
+        </div>
+        <div class="dis-flex l-mobile-container l-desktop-container  u-bg-clr-primary-lighter l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+
+            <div class="dis-flex__demo l-display-flex l-flex-direction-column l-align-center u-text-primary ">
+                <div class="flex-container-parent  l-display-flex  l-gap-050 l-border-black-001 l-parent-demo-hw ">
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 1</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 2</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 3</div>
+                </div>
+
+            </div>
+            <div class="u-text-primary u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+                &lt;div class="l-display-flex parent-element"&gt; <br> &lt;div class="child-element"&gt;Child 1&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child 2&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child 3&lt;/div&gt;<br>&lt;/div&gt;
+            </div>
+        </div>
+        <!-- display : grid -->
+        <div class="dis-grid-header l-display-flex l-mx-auto  l-jc-center u-bg-clr-primary-lighter">
+            <h3 class="dis-grid-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">display : grid; </h3>
+        </div>
+        <div class="dis-grid l-desktop-container l-mobile-container u-bg-clr-primary-lighter l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+
+            <div class="dis-grid__demo l-display-flex   l-align-center u-text-primary">
+                <div class="grid-container-parent l-display-gird l-mobile-container  l-gap-050 l-border-black-001 l-parent-demo-hw">
+                    <div class="grid-child l-m-025 l-border-black-001 l-demo-child-h">Child 1</div>
+                    <div class="grid-child l-m-025 l-border-black-001 l-demo-child-h">Child 2</div>
+                    <div class="grid-child l-m-025 l-border-black-001 l-demo-child-h">Child 3</div>
+                </div>
+
+            </div>
+            <div class="u-text-primary u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+                &lt;div class="l-display-grid parent-element"&gt; <br> &lt;div class="child-element"&gt;Child 1&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child 2&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child 3&lt;/div&gt;<br>&lt;/div&gt;
+            </div>
+        </div>
+        <!-- Flex properties -->
+        <div class="flex-context u-bg-clr-primary l-pt-100 l-display-flex l-jc-center l-flex-direction-column">
+            <h2 class="l-py-100 color-context__header  u-fw-700 u-fs-xxl u-text-secondary l-mx-auto">Justify-content</h2>
+        </div>
+        <!--justify center property -->
+        <div class="dis-grid-header l-display-flex l-mx-auto  l-jc-center u-bg-clr-primary">
+            <h3 class="dis-grid-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">justify-content:center; </h3>
+        </div>
+        <div class="jus-cen l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+
+            <div class="jus-cen__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="jus-cen-parent l-display-flex l-jc-center l-border-black-001 l-parent-demo-hw">
+                    <div class="jus-cen-child l-mx-200 l-m-025 l-border-black-001 l-demo-child-h">Child</div>
+
+                </div>
+
+            </div>
+            <div class="u-text-primary u-bg-clr-primary-lighter u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+                &lt;div class="l-display-flex l-jc-center parent-element"&gt; <br> &lt;div class="child-element"&gt;Child&lt;/div&gt;<br>&lt;/div&gt;
+            </div>
+        </div>
+        <!--justify start property -->
+        <div class="dis-grid-header l-display-flex l-mx-auto  l-jc-center u-bg-clr-primary">
+            <h3 class="dis-grid-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">justify-content:flex-start; </h3>
+        </div>
+        <div class="jus-start l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+
+            <div class="jus-start__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="jus-start-parent l-display-flex l-jc-flex-start l-border-black-001 l-parent-demo-hw">
+                    <div class="jus-start-child l-mr-400 l-m-025 l-border-black-001 l-demo-child-h">Child</div>
+
+                </div>
+
+            </div>
+            <div class="u-text-primary u-bg-clr-primary-lighter u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+                &lt;div class="l-display-flex l-jc-flex-start parent-element"&gt; <br> &lt;div class="child-element"&gt;Child element&lt;/div&gt;<br>&lt;/div&gt;
+            </div>
+        </div>
+        <!--justify start property -->
+        <div class="dis-grid-header l-display-flex l-mx-auto  l-jc-center u-bg-clr-primary">
+            <h3 class="dis-grid-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">justify-content:flex-end; </h3>
+        </div>
+        <div class="jus-end l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+
+            <div class="jus-end__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="jus-end-parent l-display-flex l-jc-flex-end l-border-black-001 l-parent-demo-hw">
+                    <div class="jus-end-child l-ml-400 l-m-025 l-border-black-001 l-demo-child-h">Child</div>
+
+                </div>
+
+            </div>
+            <div class="u-text-primary u-bg-clr-primary-lighter u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+                &lt;div class="l-display-flex l-jc-flex-end parent-element"&gt; <br> &lt;div class="child-element"&gt;Child&lt;/div&gt;<br>&lt;/div&gt;
+            </div>
+        </div>
+        <!-- Justify : space-between -->
+        <div class="dis-flex-header l-display-flex l-mx-auto  l-jc-center u-bg-clr-primary">
+            <h3 class="dis-flex-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">justify-content:space-between; </h3>
+
+        </div>
+        <div class="dis-flex l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+
+            <div class="dis-flex__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="flex-container-parent l-display-flex l-jc-space-between l-gap-050 l-border-black-001 l-parent-demo-hw">
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 1</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 2</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 3</div>
+                </div>
+
+            </div>
+            <div class="u-text-primary u-fs-l  u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary-lighter code-shadow">
+                &lt;div class="l-display-flex l-jc-space-between parent-element"&gt; <br> &lt;div class="child-element"&gt;Child 1&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child 2&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child 3&lt;/div&gt;
+                <br>&lt;/div&gt;
+            </div>
+        </div>
+        <!-- Justify : space-around -->
+        <div class="dis-flex-header l-display-flex l-mx-auto  l-jc-center u-bg-clr-primary">
+            <h3 class="dis-flex-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">justify-content:space-around; </h3>
+
+        </div>
+        <div class="dis-flex l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+
+            <div class="dis-flex__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="flex-container-parent l-display-flex l-jc-space-around l-gap-050 l-border-black-001 l-parent-demo-hw">
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 1</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 2</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 3</div>
+                </div>
+
+            </div>
+            <div class="u-text-primary u-fs-l  u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary-lighter code-shadow">
+                &lt;div class="l-display-flex l-jc-space-around parent-around"&gt; <br> &lt;div class="child-element"&gt;Child 1&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child 2&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child 3&lt;/div&gt;
+                <br>&lt;/div&gt;
+            </div>
+        </div>
+        <!-- Justify : space-evenly -->
+        <div class="dis-flex-header l-display-flex l-mx-auto  l-jc-center u-bg-clr-primary">
+            <h3 class="dis-flex-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">justify-content:space-evenly; </h3>
+
+        </div>
+        <div class="dis-flex l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+
+            <div class="dis-flex__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="flex-container-parent l-display-flex l-jc-space-evenly l-gap-050 l-border-black-001 l-parent-demo-hw">
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 1</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 2</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 3</div>
+                </div>
+
+            </div>
+            <div class="u-text-primary u-fs-l  u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary-lighter code-shadow">
+                &lt;div class="l-display-flex l-jc-space-evenly parent-around"&gt; <br> &lt;div class="child-element"&gt;Child 1&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child 2&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child 3&lt;/div&gt;
+                <br>&lt;/div&gt;
+            </div>
+        </div>
+        <!-- Flex Direction header -->
+        <div class="flex-context u-bg-clr-primary-lighter l-pt-100 l-display-flex l-jc-center l-flex-direction-column">
+            <h2 class="l-py-100 color-context__header  u-fw-700 u-fs-xxl u-text-secondary l-mx-auto">Flex-direction</h2>
+        </div>
+
+        <!-- Flex direction row-->
+        <div class="dis-flex-header l-display-flex l-mx-auto  l-jc-center u-bg-clr-primary-lighter">
+            <h3 class="dis-flex-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">flex-direction:row; </h3>
+
+        </div>
+        <div class="dis-flex l-desktop-container l-mobile-container u-bg-clr-primary-lighter l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+
+            <div class="dis-flex__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="flex-container-parent l-display-flex l-flex-direction-row l-gap-050 l-border-black-001 l-parent-demo-hw">
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 1</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 2</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 3</div>
+                </div>
+
+            </div>
+            <div class="u-text-primary u-fs-l  u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+                &lt;div class="l-display-flex l-flex-direction-row parent-around"&gt; <br> &lt;div class="child-element"&gt;Child 1&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child 2&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child 3&lt;/div&gt;
+                <br>&lt;/div&gt;
+            </div>
+        </div>
+
+        <!-- Flex direction column-->
+        <div class="dis-flex-header l-display-flex l-mx-auto  l-jc-center u-bg-clr-primary-lighter">
+            <h3 class="dis-flex-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">flex-direction:column; </h3>
+
+        </div>
+        <div class="dis-flex l-desktop-container l-mobile-container u-bg-clr-primary-lighter l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+
+            <div class="dis-flex__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="flex-container-parent l-display-flex l-flex-direction-column l-gap-050 l-border-black-001 l-parent-demo-hw">
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 1</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 2</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 3</div>
+                </div>
+
+            </div>
+            <div class="u-text-primary u-fs-l  u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+                &lt;div class="l-display-flex l-flex-direction-column parent-around"&gt; <br> &lt;div class="child-element"&gt;Child 1&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child 2&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child 3&lt;/div&gt;
+                <br>&lt;/div&gt;
+            </div>
+        </div>
+        <!-- Flex direction row-reverse-->
+        <div class="dis-flex-header l-display-flex l-mx-auto  l-jc-center u-bg-clr-primary-lighter">
+            <h3 class="dis-flex-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">flex-direction:row-reverse; </h3>
+
+        </div>
+        <div class="dis-flex l-desktop-container l-mobile-container u-bg-clr-primary-lighter l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+
+            <div class="dis-flex__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="flex-container-parent l-display-flex l-flex-direction-row-reverse l-gap-050 l-border-black-001 l-parent-demo-hw">
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 1</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 2</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 3</div>
+                </div>
+
+            </div>
+            <div class="u-text-primary u-fs-l  u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+                &lt;div class="l-display-flex l-flex-direction-row-reverse parent-around"&gt; <br> &lt;div class="child-element"&gt;Child 1&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child 2&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child
+                3&lt;/div&gt;
+                <br>&lt;/div&gt;
+            </div>
+        </div>
+        <!-- Flex direction column-reverse-->
+        <div class="dis-flex-header l-display-flex l-mx-auto  l-jc-center u-bg-clr-primary-lighter">
+            <h3 class="dis-flex-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">flex-direction:column-reverse; </h3>
+
+        </div>
+        <div class="dis-flex l-desktop-container l-mobile-container u-bg-clr-primary-lighter l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+
+            <div class="dis-flex__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="flex-container-parent l-display-flex l-flex-direction-column-reverse l-gap-050 l-border-black-001 l-parent-demo-hw">
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 1</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 2</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 3</div>
+                </div>
+
+            </div>
+            <div class="u-text-primary u-fs-l  u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+                &lt;div class="l-display-flex l-flex-direction-column-reverse parent-around"&gt; <br> &lt;div class="child-element"&gt;Child 1&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child 2&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child
+                3&lt;/div&gt;
+                <br>&lt;/div&gt;
+            </div>
+        </div>
+        <!-- Align item header -->
+        <div class="flex-context u-bg-clr-primary l-pt-100 l-display-flex l-jc-center l-flex-direction-column">
+            <h2 class="l-py-100 color-context__header  u-fw-700 u-fs-xxl u-text-secondary l-mx-auto">Align-items</h2>
+        </div>
+
+        <!--Align item center -->
+        <div class="dis-grid-header l-display-flex l-mx-auto  l-jc-center u-bg-clr-primary">
+            <h3 class="dis-grid-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">align-items:center; </h3>
+        </div>
+        <div class="jus-start l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+
+            <div class="jus-start__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="jus-start-parent l-display-flex l-align-center l-border-black-001 l-parent-demo-hw">
+                    <div class="jus-start-child l-mr-400 l-m-025 l-border-black-001 l-demo-child-h">Child</div>
+
+                </div>
+
+            </div>
+            <div class="u-text-primary u-bg-clr-primary-lighter u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+                &lt;div class="l-display-flex l-align-center parent-element"&gt; <br> &lt;div class="child-element"&gt;Child&lt;/div&gt;<br>&lt;/div&gt;
+            </div>
+        </div>
+        <!--Align item start -->
+        <div class="dis-grid-header l-display-flex l-mx-auto  l-jc-center u-bg-clr-primary">
+            <h3 class="dis-grid-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">align-items:start; </h3>
+        </div>
+        <div class="jus-start l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+
+            <div class="jus-start__demo l-display-flex l-flex-direction-column l-align-start u-text-primary">
+                <div class="jus-start-parent l-display-flex l-align-start l-border-black-001 l-parent-demo-hw">
+                    <div class="jus-start-child l-mr-400 l-m-025 l-border-black-001 l-demo-child-h">Child</div>
+
+                </div>
+
+            </div>
+            <div class="u-text-primary u-bg-clr-primary-lighter u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+                &lt;div class="l-display-flex l-align-start parent-element"&gt; <br> &lt;div class="child-element"&gt;Child&lt;/div&gt;<br>&lt;/div&gt;
+            </div>
+        </div>
+        <!--Align item end -->
+        <div class="dis-grid-header l-display-flex l-mx-auto  l-jc-center u-bg-clr-primary">
+            <h3 class="dis-grid-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">align-items:end; </h3>
+        </div>
+        <div class="jus-start l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+
+            <div class="jus-start__demo l-display-flex l-flex-direction-column l-align-start u-text-primary">
+                <div class="jus-start-parent l-display-flex l-align-end l-border-black-001 l-parent-demo-hw">
+                    <div class="jus-start-child l-mr-400 l-m-025 l-border-black-001 l-demo-child-h">Child</div>
+
+                </div>
+
+            </div>
+            <div class="u-text-primary u-bg-clr-primary-lighter u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+                &lt;div class="l-display-flex l-align-end parent-element"&gt; <br> &lt;div class="child-element"&gt;Child&lt;/div&gt;<br>&lt;/div&gt;
+            </div>
+        </div>
+        <!--Align item stretch -->
+        <div class="dis-grid-header l-display-flex l-mx-auto  l-jc-center u-bg-clr-primary">
+            <h3 class="dis-grid-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">align-items:stretch; </h3>
+        </div>
+        <div class="jus-start l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+
+            <div class="jus-start__demo l-display-flex l-flex-direction-column l-align-start u-text-primary">
+
+                <div class="jus-start-parent l-display-flex l-align-stretch l-border-black-001 l-parent-demo-hw">
+                    <div class="align-stretch-child l-pb-400 l-mr-400 l-m-025 l-border-black-001 l-demo-child-h">Child</div>
+
+                </div>
+
+            </div>
+            <div class="u-text-primary u-bg-clr-primary-lighter u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+                &lt;div class="l-display-flex l-align-stretch parent-element"&gt; <br> &lt;div class="child-element"&gt;Child&lt;/div&gt;<br>&lt;/div&gt;
+            </div>
+        </div>
+        <!-- Grid -->
+        <div class="flex-context u-bg-clr-primary-lighter l-pt-100 l-display-flex l-jc-center l-flex-direction-column">
+            <h2 class="l-py-100 color-context__header  u-fw-700 u-fs-xxl u-text-secondary l-mx-auto">Grid</h2>
+        </div>
+        <!-- Grid template rows -->
+        <div class="dis-grid-header l-display-flex l-mx-auto  l-jc-center u-bg-clr-primary u-bg-clr-primary-lighter">
+            <h3 class="dis-grid-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">Grid-template-rows</h3>
+
+        </div>
+        <div class="dis-flex l-desktop-container l-mobile-container u-bg-clr-primary-lighter l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100 ">
+
+            <div class="dis-flex__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="flex-container-parent l-display-grid l-grid-rows-auto l-gap-100 l-border-black-001 l-parent-demo-hw">
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 1</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 2</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 3</div>
+
+                </div>
+
+            </div>
+            <div class="u-text-primary u-fs-l  u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+                &lt;div class="l-display-grid l-grid-rows-auto parent-element"&gt; <br> &lt;div class="child-element"&gt;Child 1&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child 2&lt;/div&gt;<br> &lt;div class="child-element"&gt;Child 3&lt;/div&gt;
+                <br>&lt;/div&gt;
+            </div>
+        </div>
+        <!-- Grid template column -->
+        <div class="dis-grid-header l-display-flex l-mx-auto l-jc-center u-bg-clr-primary u-bg-clr-primary-lighter">
+            <h3 class="dis-grid-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">Grid-template-columns</h3>
+        </div>
+        <div class="dis-flex l-desktop-container l-mobile-container u-bg-clr-primary-lighter l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100">
+            <div class="dis-flex__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="flex-container-parent l-display-grid l-grid-cols-auto l-gap-100 l-border-black-001 l-parent-demo-hw">
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 1</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 2</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 3</div>
+                </div>
+            </div>
+            <div class="u-text-primary u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary code-shadow">
+                &lt;div class="l-display-grid l-grid-cols-auto parent-element"&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child 1&lt;/div&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child 2&lt;/div&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child
+                3&lt;/div&gt;
+                <br> &lt;/div&gt;
+            </div>
+        </div>
+        <!-- Gap-->
+        <div class="flex-context u-bg-clr-primary l-pt-100 l-display-flex l-jc-center l-flex-direction-column">
+            <h2 class="l-py-100 color-context__header  u-fw-700 u-fs-xxl u-text-secondary l-mx-auto">Gap</h2>
+        </div>
+        <!-- Gap normal -->
+        <div class="dis-grid-header l-display-flex l-mx-auto l-jc-center u-bg-clr-primary u-bg-clr-primary">
+            <h3 class="dis-grid-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">gap:normal;</h3>
+        </div>
+        <div class="dis-flex l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100">
+            <div class="dis-flex__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="flex-container-parent l-display-flex l-gap-normal l-border-black-001 l-parent-demo-hw">
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 1</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 2</div>
+                    <div class="flex-child l-m-025 l-border-black-001 l-demo-child-h">Child 3</div>
+                </div>
+            </div>
+            <div class="u-text-primary u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary-lighter code-shadow">
+                &lt;div class="l-display-grid l-gap-normal parent-element"&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child 1&lt;/div&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child 2&lt;/div&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child
+                3&lt;/div&gt;
+                <br> &lt;/div&gt;
+            </div>
+        </div>
+        <!-- Gap zero -->
+        <div class="dis-grid-header l-display-flex l-mx-auto l-jc-center u-bg-clr-primary u-bg-clr-primary">
+            <h3 class="dis-grid-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">gap:0;</h3>
+        </div>
+        <div class="dis-flex l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100">
+            <div class="dis-flex__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="flex-container-parent l-display-flex l-gap-000 l-border-black-001 l-parent-demo-hw">
+                    <div class="flex-child l-my-050 l-border-black-001 l-demo-child-h">Child 1</div>
+                    <div class="flex-child l-my-050 l-border-black-001 l-demo-child-h">Child 2</div>
+                    <div class="flex-child l-my-050 l-border-black-001 l-demo-child-h">Child 3</div>
+                </div>
+            </div>
+            <div class="u-text-primary u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary-lighter code-shadow">
+                &lt;div class="l-display-grid l-gap-00 parent-element"&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child 1&lt;/div&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child 2&lt;/div&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child 3&lt;/div&gt;
+                <br> &lt;/div&gt;
+            </div>
+        </div>
+        <!-- Gap 1 rem -->
+        <div class="dis-grid-header l-display-flex l-mx-auto l-jc-center u-bg-clr-primary u-bg-clr-primary">
+            <h3 class="dis-grid-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">gap:1 rem;</h3>
+        </div>
+        <div class="dis-flex l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100">
+            <div class="dis-flex__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="flex-container-parent l-display-flex l-gap-100 l-border-black-001 l-parent-demo-hw">
+                    <div class="flex-child l-my-050 l-border-black-001 l-demo-child-h">Child 1</div>
+                    <div class="flex-child l-my-050 l-border-black-001 l-demo-child-h">Child 2</div>
+                    <div class="flex-child l-my-050 l-border-black-001 l-demo-child-h">Child 3</div>
+                </div>
+            </div>
+            <div class="u-text-primary u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary-lighter code-shadow">
+                &lt;div class="l-display-grid l-gap-100 parent-element"&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child 1&lt;/div&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child 2&lt;/div&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child
+                3&lt;/div&gt;
+                <br> &lt;/div&gt;
+            </div>
+        </div>
+        <!-- Gap 2 rem -->
+        <div class="dis-grid-header l-display-flex l-mx-auto l-jc-center u-bg-clr-primary u-bg-clr-primary">
+            <h3 class="dis-grid-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">gap:2 rem;</h3>
+        </div>
+        <div class="dis-flex l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100">
+            <div class="dis-flex__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="flex-container-parent l-display-flex l-gap-200 l-border-black-001 l-parent-demo-hw">
+                    <div class="flex-child l-my-050 l-border-black-001 l-demo-child-h">Child 1</div>
+                    <div class="flex-child l-my-050 l-border-black-001 l-demo-child-h">Child 2</div>
+                    <div class="flex-child l-my-050 l-border-black-001 l-demo-child-h">Child 3</div>
+                </div>
+            </div>
+            <div class="u-text-primary u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary-lighter code-shadow">
+                &lt;div class="l-display-grid l-gap-200 parent-element"&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child 1&lt;/div&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child 2&lt;/div&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child
+                3&lt;/div&gt;
+                <br> &lt;/div&gt;
+            </div>
+        </div>
+        <!-- Gap 3 rem -->
+        <div class="dis-grid-header l-display-flex l-mx-auto l-jc-center u-bg-clr-primary u-bg-clr-primary">
+            <h3 class="dis-grid-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">gap:3 rem;</h3>
+        </div>
+        <div class="dis-flex l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100">
+            <div class="dis-flex__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="flex-container-parent l-display-flex l-gap-300 l-border-black-001 l-parent-demo-hw">
+                    <div class="flex-child l-my-050 l-border-black-001 l-demo-child-h">Child 1</div>
+                    <div class="flex-child l-my-050 l-border-black-001 l-demo-child-h">Child 2</div>
+                    <div class="flex-child l-my-050 l-border-black-001 l-demo-child-h">Child 3</div>
+                </div>
+            </div>
+            <div class="u-text-primary u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary-lighter code-shadow">
+                &lt;div class="l-display-grid l-gap-300 parent-element"&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child 1&lt;/div&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child 2&lt;/div&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child
+                3&lt;/div&gt;
+                <br> &lt;/div&gt;
+            </div>
+        </div>
+        <!-- Gap 4 rem -->
+        <div class="dis-grid-header l-display-flex l-mx-auto l-jc-center u-bg-clr-primary u-bg-clr-primary">
+            <h3 class="dis-grid-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050">gap:4 rem;</h3>
+        </div>
+        <div class="dis-flex l-desktop-container l-mobile-container u-bg-clr-primary l-display-flex l-gap-200 l-flex-wrap-wrap l-py-100">
+            <div class="dis-flex__demo l-display-flex l-flex-direction-column l-align-center u-text-primary">
+                <div class="flex-container-parent l-display-flex l-gap-400 l-border-black-001 l-parent-demo-hw">
+                    <div class="flex-child l-my-050 l-border-black-001 l-demo-child-h">Child 1</div>
+                    <div class="flex-child l-my-050 l-border-black-001 l-demo-child-h">Child 2</div>
+                    <div class="flex-child l-my-050 l-border-black-001 l-demo-child-h">Child 3</div>
+                </div>
+            </div>
+            <div class="u-text-primary u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary-lighter code-shadow">
+                &lt;div class="l-display-grid l-gap-400 parent-element"&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child 1&lt;/div&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child 2&lt;/div&gt;<br> &nbsp;&lt;div class="child-element"&gt;Child
+                3&lt;/div&gt;
+                <br> &lt;/div&gt;
+            </div>
+        </div>
+        <!-- Containers -->
+        <div class="flex-context u-bg-clr-primary l-pt-100 l-display-flex l-jc-center l-flex-direction-column">
+            <h2 class="l-py-100 color-context__header  u-fw-700 u-fs-xxl u-text-secondary l-mx-auto">Containers</h2>
+        </div>
+        <!-- width 100 % desktop -->
+        <div class="dis-grid-header l-display-flex l-mx-auto l-jc-center u-bg-clr-primary u-bg-clr-primary">
+            <h3 class="dis-grid-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050 ">Device full-width</h3>
+        </div>
+        <div class="l-width-full l-display-flex l-align-center l-jc-center u-bg-clr-primary-lighter l-border-desktop-003 l-mx-auto l-height-75 l-m-100">
+            <p class="color-usage-container__text u-fw-500 u-text-primary u-text-clr-secondary-darker">Width 100%</p>
+        </div>
+        <div class="l-width-full l-display-flex l-align-center l-jc-center u-bg-clr-primary  l-mx-auto  l-m-100">
+            <p class="color-usage-container__text u-fw-500 u-text-primary u-text-clr-secondary">
+                <div class="u-text-primary u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary-lighter code-shadow">
+                    &lt;div class="l-width-full l-display-flex l-align-center l-jc-center parent-element"&gt;<br> &nbsp; &lt;p class="u-fw-500 u-text-primary u-text-clr-secondary-darker child-element"&gt;Width 100%&lt;/p&gt;
+                    <br> &lt;/div&gt;
+                </div>
+            </p>
+        </div>
+        <!-- Max width -->
+        <div class="dis-grid-header l-display-flex l-mx-auto l-jc-center u-bg-clr-primary u-bg-clr-primary">
+            <h3 class="dis-grid-header__header u-f u-fw-600 u-fs-xl u-text-secondary u-text-clr-secondary-darker l-my-050 ">Max width (80%)</h3>
+        </div>
+        <div class="l-width-full l-display-flex l-align-center l-jc-center u-bg-clr-primary l-border-desktop-003 l-mx-auto l-height-75 l-m-100">
+            <div class="l-width-80-p u-bg-clr-primary l-height-75 l-display-flex l-jc-center l-align-center">
+                <p class="color-usage-container__text u-fw-500 u-text-primary  u-text-clr-secondary-darker">Takes up to 80% of the width. </p>
+            </div>
+
+        </div>
+        <div class="l-width-full l-display-flex l-align-center l-jc-center u-bg-clr-primary  l-mx-auto  l-m-100">
+            <p class="color-usage-container__text u-fw-500 u-text-primary u-text-clr-secondary">
+                <div class="u-text-primary u-fs-l u-text-clr-accent s-cursor-pointer copyClass l-p-200 u-bg-clr-primary-lighter code-shadow">
+                    &lt;div class="l-width-80-p l-display-flex l-jc-center l-align-center parent-element"&gt;<br> &nbsp; &lt;p class="u-fw-500 u-text-primary u-text-clr-secondary-darker child-element"&gt;Takes up to 80% of the width.&lt;/p&gt;
+                    <br> &lt;/div&gt;
+                </div>
+            </p>
+        </div>
+
+        <div class="copyNotification u-text-primary" id="copyNotification">Copied!</div>
+    </main>
+    <script src="design-system.js"></script>
+</body>
+
+</html>
